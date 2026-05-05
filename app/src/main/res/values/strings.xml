@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StreakWise</string>
+    <string name="onboarding_title_1">Welcome to StreakWise!</string>
+    <string name="onboarding_description_1">Build lasting habits and track your streaks with ease. Let\'s get started on your journey to consistency.</string>
+    <string name="onboarding_title_2">Track Your Progress</string>
+    <string name="onboarding_description_2">Mark habits as completed daily and watch your streaks grow. Visualize your consistency over time.</string>
+    <string name="onboarding_title_3">Never Miss a Beat</string>
+    <string name="onboarding_description_3">Set custom reminders for each habit to stay on track and achieve your goals.</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+
+    <string name="habits_dashboard_title">Your Habits</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="no_active_habits_title">No Habits Yet</string>
+    <string name="no_active_habits_description">Start building good habits! Tap the '+' button to add your first habit.</string>
+    <string name="error_loading_habits">Failed to load habits. Please try again.</string>
+    <string name="retry">Retry</string>
+    <string name="offline_message">You are offline. Data might be outdated.</string>
+    <string name="streak_info">Streak information</string>
+    <string name="current_streak_label">Current Streak: %1$d</string>
+    <string name="mark_habit_complete">Mark habit complete</string>
+    <string name="mark_habit_incomplete">Mark habit incomplete</string>
+    <string name="ad_banner_description">Ad banner</string>
+
+    <string name="add_edit_habit_title_add">New Habit</string>
+    <string name="add_edit_habit_title_edit">Edit Habit</n_string>
+    <string name="habit_name_label">Habit Name</string>
+    <string name="habit_name_placeholder">e.g., Drink Water, Read Book</string>
+    <string name="habit_description_label">Description (Optional)</string>
+    <string name="habit_description_placeholder">e.g., Drink 8 glasses, Read 30 pages</string>
+    <string name="habit_frequency_label">Frequency</string>
+    <string name="frequency_daily">Daily</string>
+    <string name="frequency_weekly">Specific Days of Week</string>
+    <string name="monday_short">Mon</string>
+    <string name="tuesday_short">Tue</string>
+    <string name="wednesday_short">Wed</string>
+    <string name="thursday_short">Thu</string>
+    <string name="friday_short">Fri</string>
+    <string name="saturday_short">Sat</string>
+    <string name="sunday_short">Sun</string>
+    <string name="reminder_time_label">Reminder Time (Optional)</string>
+    <string name="set_time">Set Time</string>
+    <string name="clear_time">Clear Time</string>
+    <string name="save_habit">Save Habit</string>
+    <string name="habit_name_empty_error">Habit name cannot be empty.</string>
+    <string name="habit_saved_success">Habit saved successfully!</string>
+    <string name="habit_updated_success">Habit updated successfully!</string>
+    <string name="failed_to_save_habit">Failed to save habit. Please try again.</string>
+    <string name="notification_permission_rationale_title">Notification Permission Required</string>
+    <string name="notification_permission_rationale_message">To send you habit reminders, StreakWise needs notification permission. Please grant it in settings.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="no_description_provided">No description provided.</string>
+
+    <string name="habit_detail_title">Habit Details</string>
+    <string name="current_streak">Current Streak</string>
+    <string name="longest_streak">Longest Streak</string>
+    <string name="history">History</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="archive_habit">Archive Habit</string>
+    <string name="delete_habit">Delete Habit</string>
+    <string name="confirm_delete_title">Delete Habit?</string>
+    <string name="confirm_delete_message">Are you sure you want to permanently delete "%1$s" and all its completion data? This cannot be undone.</string>
+    <string name="confirm_archive_title">Archive Habit?</string>
+    <string name="confirm_archive_message">Are you sure you want to archive "%1$s"? It will no longer appear on your dashboard but can be restored later.</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="archive">Archive</string>
+    <string name="habit_deleted_success">Habit deleted successfully.</string>
+    <string name="habit_archived_success">Habit archived successfully.</string>
+    <string name="failed_to_delete_habit">Failed to delete habit.</string>
+    <string name="failed_to_archive_habit">Failed to archive habit.</string>
+    <string name="completion_status_completed">Completed</string>
+    <string name="completion_status_missed">Missed</string>
+    <string name="completion_status_unknown">Unknown</string>
+    <string name="no_completion_history_title">No History Yet</string>
+    <string name="no_completion_history_description">Start tracking your habit to see its progress here.</string>
+    <string name="habit_detail_error">Failed to load habit details.</string>
+    <string name="calendar_day_description">Day %1$d, %2$s</string>
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+    <string name="back">Back</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="general_settings">General</string>
+    <string name="enable_reminders">Enable Global Reminders</string>
+    <string name="about_app">About App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="legal">Legal</string>
+    <string name="notification_settings_updated">Notification settings updated.</string>
+    <string name="failed_to_update_notification_settings">Failed to update notification settings.</string>
+    <string name="ad_unit_id_banner">ca-app-pub-3940256099942544/6300978111</string> <!-- Test Ad Unit ID for Banner -->
+    <string name="ad_unit_id_interstitial">ca-app-pub-3940256099942544/1033173712</string> <!-- Test Ad Unit ID for Interstitial -->
+
+    <string name="about_screen_title">About StreakWise</string>
+    <string name="version_label">Version</string>
+    <string name="version_number">1.0.0</string>
+    <string name="developed_by">Developed by Android Forge</string>
+    <string name="about_app_description">StreakWise helps you build and maintain positive habits by tracking your progress and streaks. Stay motivated and achieve your goals with ease.</string>
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_content">This is a placeholder for the Privacy Policy content. In a production app, this would contain the actual legal text regarding data collection, usage, and user rights. For now, assume a detailed policy would be loaded here or linked to an external URL.</string>
+
+    <string name="permission_denied_message">Permission denied. Some features may not work without it.</string>
+    <string name="error_loading_settings">Failed to load settings. Please try again.</string>
+
+</resources>
