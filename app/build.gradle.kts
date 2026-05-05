@@ -1,9 +1,11 @@
 plugins {
-    alias(libs.plugins.androidApplication)
-    alias(libs.plugins.kotlinAndroid)
-    alias(libs.plugins.kotlinKsp)
-    alias(libs.plugins.hiltAndroid)
-    alias(libs.plugins.googleServices) // For AdMob
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.kapt")
+    id("com.google.dagger.hilt.android")
+    id("kotlinKsp")
+    id("hiltAndroid")
+    id("googleServices") // For AdMob
 }
 
 android {
@@ -72,18 +74,18 @@ dependencies {
 
     // Hilt
     implementation(libs.hilt.android)
-    ksp(libs.hilt.compiler)
+    kapt(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
 
     // Room
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
-    ksp(libs.room.compiler)
+    kapt(libs.room.compiler)
 
     // WorkManager
     implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.hilt.work) // For Hilt WorkerFactory runtime support
-    ksp(libs.hilt.work.compiler) // For Hilt WorkerFactory annotation processing
+    kapt(libs.hilt.work.compiler) // For Hilt WorkerFactory annotation processing
 
     // DataStore
     implementation(libs.androidx.datastore.preferences)
